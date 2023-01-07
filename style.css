@@ -55,6 +55,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 130px;
+    margin-bottom: 30px;
 }
 
 .failure img {
@@ -86,10 +87,48 @@
     color: #16D887;
 }
 
-.item p {
+.item p{
     font-size: 16px;
     line-height: 26px;
     color: #444343;
+}
+/* developer section */
+.about-title{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 40px;
+}
+.developer-about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+.developer{
+    background-color: #5b0bf0;
+    margin-right: 10px;
+    padding: 20px;
+    height: 350px;
+    border-radius: 9px;
+    color: white;
+}
+.developer h3{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.developer h5{
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+.developer p{
+    line-height: 26px;
+}
+.developer button{
+    margin-top: 50px;
+    width: 300px;
+    height: 30px;
+    border-radius: 15px;
 }
 
 /* my plan section */
